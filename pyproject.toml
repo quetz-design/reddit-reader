@@ -1,0 +1,9 @@
+[project]
+name = "reddit-reader"
+version = "0.1.0"
+description = "Read-only daily reader for new public posts in a few subreddits"
+requires-python = ">=3.12"
+dependencies = ["httpx>=0.28"]
+
+[tool.ruff]
+line-length = 100
